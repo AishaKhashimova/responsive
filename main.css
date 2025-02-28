@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+.cardall{
+    display: flex;
+justify-content: center;
+gap: 45px;
+}
+.box{
+    width: 210px;
+    height: 210px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width:1024px) {
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+.cardall{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+body{
+    background-color: yellow;
+}   
+}
+@media only screen and (max-width:768px) {
+    .box{
+        width: 220px;
+        height: 220px;
+        background-color: black;
+    }
+    .cardall{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+      
+    }
+    body{
+        background-color: red;
+    }   
+    }
+    @media only screen and (max-width:425px) {
+        .box{
+            width: 250px;
+            height: 150px;
+            background-color: blue;
+        }
+        .cardall{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap; 
+          
+        }
+        body{
+            background-color: yellow;
+        }   
+        }
+        
